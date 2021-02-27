@@ -8,16 +8,9 @@ title: Satisfying Assignment of 3-SAT
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-**Question 1.**    
+**Question.**    
 Given any $$3$$-SAT instance with $$m$$ clauses, show that there is an assignment that satisfies (at least) $$7m/8$$ of the clauses.
 
-<!-- <details>
-	<summary> <b>Hint</b> </summary>
-
-It is possible to evaluate it with just \(2\) calls to the machine.
-</details>
- -->
-<!-- <p></p> -->
 
 <details>
 	<summary> <b>Solution</b> </summary>
@@ -27,22 +20,28 @@ The probability of a particular clause being true under an assignment chosen fro
 
 </details>
 
+<p></p>
+<p></p>
+
 **Question.**    
 Given any $$3$$-SAT instance with $$m$$ clauses, give a quadratic time algorithm to find an assignment that satisfies (at least) $$7m/8$$ of the clauses.
 
-<!-- <details>
+<details>
 	<summary> <b>Hint</b> </summary>
 
-It is possible to evaluate it with just \(2\) calls to the machine.
+Try splitting into cases and using the above result.
 </details>
- -->
-<!-- <p></p> -->
+
+<p></p>
+
 
 <details>
 	<summary> <b>Solution</b> </summary>
 
 Let $$x_1$$ be a variable in the formula. Consider $$\mathbb{E}[f(X)\mid x_1 = 0]$$ and $$\mathbb{E}[f(X)\mid x_2 = 0]$$. Since the arithmetic mean of the two is at least $$7m/8$$, one of the two must be at least $$7m/8$$. Further, both of them can be computed quite easily. We then recurse on the corresponding smaller subproblem. The required follows.
 </details>
+
+<p></p>
 
 **An Interesting Follow-up.**    
 Assuming $$\mathsf{P}\neq\mathsf{NP}$$, for any $$\varepsilon>0$$, there is no polynomial time algorithm that, for any $$3$$-SAT instance, finds an assignment that satisfies (at least) $$(7/8 + \varepsilon)m$$ of the clauses.
