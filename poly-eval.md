@@ -1,6 +1,6 @@
 ---
 layout: page
-title:	Partitioning a rectangle
+title:	Evaluating a polynomial
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
