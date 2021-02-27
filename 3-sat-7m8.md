@@ -15,8 +15,8 @@ Given any $$3$$-SAT instance with $$m$$ clauses, show that there is an assignmen
 <details>
 	<summary> <b>Solution</b> </summary>
 
-Let $$X$$ be a uniform random variable on the set of possible assignments. Consider the random variable $$f(X)$$, where for any model $$m$$, $$f(m)$$ represents the number of true clauses under it.    
-The probability of a particular clause being true under an assignment chosen from $$X$$ is $$7/8$$. The linearity of expectation implies that the expectation of $$f(X)$$ is $$7m/8$$. The required follows.
+Let \(X\) be a uniform random variable on the set of possible assignments. Consider the random variable \(f(X)\), where for any model \(m\), \(f(m)\) represents the number of true clauses under it.    
+The probability of a particular clause being true under an assignment chosen from \(X\) is \(7/8\). The linearity of expectation implies that the expectation of \(f(X)\) is \(7m/8\). The required follows.
 
 </details>
 
@@ -38,7 +38,7 @@ Try splitting into cases and using the above result.
 <details>
 	<summary> <b>Solution</b> </summary>
 
-Let $$x_1$$ be a variable in the formula. Consider $$\mathbb{E}[f(X)\mid x_1 = 0]$$ and $$\mathbb{E}[f(X)\mid x_2 = 0]$$. Since the arithmetic mean of the two is at least $$7m/8$$, one of the two must be at least $$7m/8$$. Further, both of them can be computed quite easily. We then recurse on the corresponding smaller subproblem. The required follows.
+Let \(x_1\) be a variable in the formula. Consider \(\mathbb{E}[f(X)\mid x_1 = 0]\) and \(\mathbb{E}[f(X)\mid x_2 = 0]\). Since the arithmetic mean of the two is at least \(7m/8\), one of the two must be at least \(7m/8\). Further, both of them can be computed quite easily. We then recurse on the corresponding smaller subproblem. The required follows.
 </details>
 
 <p></p>
