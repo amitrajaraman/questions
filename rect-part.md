@@ -9,7 +9,7 @@ title:	Partitioning a rectangle
 </script>
 
 **Question.**    
-Let \(R\) be a rectangle that can be partitioned into smaller rectangles, each of which has at least one side of integer length. Prove that \(R\) has at least one side of integer length.
+Let \(R\) be an axis-aligned rectangle that can be partitioned into smaller axis-aligned rectangles, each of which has at least one side of integer length. Prove that \(R\) has at least one side of integer length.
 
 <details>
 	<summary> <b>Solution</b> </summary>
