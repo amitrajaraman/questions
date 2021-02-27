@@ -38,7 +38,7 @@ Try splitting into cases and using the above result.
 <details>
 	<summary> <b>Solution</b> </summary>
 
-Let \(x_1\) be a variable in the formula. Consider \(\mathbb{E}[f(X)\mid x_1 = 0]\) and \(\mathbb{E}[f(X)\mid x_2 = 0]\). Since the arithmetic mean of the two is at least \(7m/8\), one of the two must be at least \(7m/8\). Further, both of them can be computed quite easily. We then recurse on the corresponding smaller subproblem. The required follows.
+Let \(x_1\) be a variable in the formula. Consider \(\mathbb{E}[f(X)\mid x_1 = 0]\) and \(\mathbb{E}[f(X)\mid x_1 = 1]\). Since the arithmetic mean of the two is at least \(7m/8\), one of the two must be at least \(7m/8\). Further, both of them can be computed quite easily. We then recurse on the corresponding smaller subproblem. The required follows.
 </details>
 
 <p></p>
