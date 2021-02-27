@@ -9,7 +9,7 @@ title:	Evaluating a polynomial
 </script>
 
 **Question.**    
-Let $$p$$ be a polynomial with non-negative integer coefficients. You are given access to a machine that, given any $$n\in\mathbb N$$, returns $$p(n)$$. Give an algorithm to evaluate $$p$$.    
+Let $$p$$ be a polynomial with non-negative integer coefficients. You have access to a machine that, given any $$n\in\mathbb N$$, returns $$p(n)$$. Give an algorithm to evaluate $$p$$.    
 Assume that any other mathematical operations to be performed take no time and that the dominating factor is the number of calls you make to the machine.
 
 <details>

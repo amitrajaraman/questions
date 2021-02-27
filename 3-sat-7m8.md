@@ -9,14 +9,14 @@ title: Satisfying Assignment of 3-SAT
 </script>
 
 **Question.**    
-Given any $$3$$-SAT instance with $$m$$ clauses, show that there is an assignment that satisfies (at least) $$7m/8$$ of the clauses.
+Given a $$3$$-SAT instance with $$m$$ clauses, show that there is an assignment that satisfies (at least) $$7m/8$$ of the clauses.
 
 
 <details>
 	<summary> <b>Solution</b> </summary>
 
 Let \(X\) be a uniform random variable on the set of possible assignments. Consider the random variable \(f(X)\), where for any model \(m\), \(f(m)\) represents the number of true clauses under it.    
-The probability of a particular clause being true under an assignment chosen from \(X\) is \(7/8\). The linearity of expectation implies that the expectation of \(f(X)\) is \(7m/8\). The required follows.
+The probability of a particular clause being true under an assignment chosen from \(X\) is \(7/8\). Linearity of expectation implies that the expectation of \(f(X)\) is \(7m/8\). The required follows since the maximum of the random variable (which is attained for some assignment) is at least equal to its expectation.
 
 </details>
 
