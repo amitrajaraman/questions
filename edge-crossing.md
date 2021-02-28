@@ -9,8 +9,7 @@ title:	Edge Crossing Number
 </script>
 
 **Question.**    
-Prove that if a graph $$G$$ has $$n$$ vertices and $$m>4n$$ edges,
-
+Let $$G$$ be a graph. Define its _edge crossing number_ $$cr(G)$$ to be the least number of edge crossings in a planar drawing of it. Prove that if $$G$$ has $$n$$ vertices and $$m>4n$$ edges,
 $$\operatorname{cr}(G) \geq \frac{m^3}{64n^2}.$$
 
 <details>
