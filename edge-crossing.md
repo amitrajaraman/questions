@@ -18,6 +18,8 @@ $$\operatorname{cr}(G) \geq \frac{m^3}{64n^2}.$$
 To start, try showing that the edge crossing number is at least \(m-3n\).
 </details>
 
+<p></p>
+
 <details>
 	<summary> <b>Solution</b> </summary>
 
