@@ -23,7 +23,7 @@ Now, suppose we draw the graph \(G\) such that the number of crossings is equal 
 <p></p>
 
 **Question.**    
-Let $$G$$ be a graph. Define the _crossing number_ $$\operatorname{cr}(G)$$ to be the lowest number of edge crossings in a planar drawing of $$G$$. Prove that if $$G$$ has $$n$$ vertices and $$m>4n$$ edges,
+Prove that if a graph $$G$$ has $$n$$ vertices and $$m>4n$$ edges,
 
 $$\operatorname{cr}(G) \geq \frac{m^3}{64n^2}.$$
 
@@ -33,11 +33,10 @@ $$\operatorname{cr}(G) \geq \frac{m^3}{64n^2}.$$
 Let \( 0<p<1 \), which we shall choose later. Consider a random subgraph \(H\) such that each vertex of \(G\) is in \(H\) with probability \(p\) and an edge in \(G\) is present in \(H\) iff both its vertices are present.    
 The first question implies that
 
-\[ \operatorname{cr}(H) \geq m_H - 3n_H \]
+\[ \operatorname{cr}(H) \geq m_H - 3n_H. \]
 
-Observe that a crossing in \(G\) is present in \(H\) only if all of the \(4\) vertices involved are chosen Taking the expectation on either side, we get
+Observe that a crossing in \(G\) is present in \(H\) only if all of the \(4\) vertices involved are chosen. Taking the expectation on either side, we get
 
 \[ p^4\operatorname{cr}(G) \geq p^2m-3pn. \]
-Setting \(p = 4n/m < 1\), we get
-\[ \operatorname{cr}(G) \geq \frac{m^3}{64n^2}. \]
+Setting \(p = 4n/m < 1\), we get the required.
 </details>
