@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Satisfying Assignment of 3-SAT
+layout: 	page
+title: 	Satisfying Assignment of 3-SAT
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
