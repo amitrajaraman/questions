@@ -3,7 +3,7 @@ layout: page
 title:	Nice Questions
 ---
 
-<!-- hi -->
+This is a small collection of questions whose solutions I found neat.
 
 * [Let $$R$$ be a rectangle that can be partitioned into smaller rectangles with sides parallel to those of $$R$$, each of which has at least one side of integer length. Prove that $$R$$ has at least one side of integer length.](./rect-part)
 * [Let $$p$$ be a polynomial with non-negative integer coefficients. You have access to a machine that, given any $$n\in\mathbb N$$, returns $$p(n)$$. Give an algorithm to find $$p$$.](./poly-eval)
