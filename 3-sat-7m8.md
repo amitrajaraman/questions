@@ -46,4 +46,4 @@ Let \(x_1\) be a variable in the formula. Consider \(\mathbb{E}[f(X)\mid x_1 = 0
 **An Interesting Follow-up.**    
 Assuming $$\mathsf{P}\neq\mathsf{NP}$$, for any $$\varepsilon>0$$, there is no polynomial time algorithm that, for any $$3$$-SAT instance, finds an assignment that satisfies (at least) $$(7/8 + \varepsilon)m$$ of the clauses.
 
-The proof of the above is _far_ more non-trivial compared to the previous two. Interested readers can learn more in [this paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.5701&rep=rep1&type=pdf) by Johan Håstad.
+The proof of the above is _far_ more non-trivial compared to the previous two. Interested readers can learn more in <i>[Some Optimal Inapproximability Results](http://www.cs.umd.edu/~gasarch/BLOGPAPERS/max3satl.pdf)</i> by Johan Håstad.
