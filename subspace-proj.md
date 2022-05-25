@@ -9,7 +9,7 @@ title: Projection of a subspace
 </script>
 
 **Question.**
-Given a $$k$$-dimensional subspace $$V$$ of $$\mathbb{R}^n$$, show that there exist indices $$i_1,\ldots,i_k$$ such that on defining $$W = \operatorname{span}(e_{i_1}, e_{i_2}, \ldots, e_{i_k})$$, the function $$\pi : V \to W$$ that projects any vector $$v \in V$$ onto $$W$$ is a bijection.
+Given a $$k$$-dimensional subspace $$V$$ of $$\mathbb{R}^n$$, show that there exist indices $$i_1,\ldots,i_k$$ such that on defining $$W = \operatorname{span}(e_{i_1}, e_{i_2}, \ldots, e_{i_k})$$, the function $$\pi : V \to W$$ that maps any $$v \in V$$ to $$\sum_{j = 1}^{k} \langle v,e_{i_j}\rangle e_{i_j}$$ under the standard inner product $$\langle\cdot,\cdot\rangle$$.
 
 
 <details>
