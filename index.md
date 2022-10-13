@@ -10,3 +10,4 @@ This is a small collection of questions whose solutions I found neat.
 * [Given a $$3$$-SAT instance with $$m$$ clauses, show that there is an assignment that satisfies $$7m/8$$ of the clauses.](./3-sat-7m8)
 * [Show that the edge crossing number of a graph with $$n$$ vertices and $$m>4n$$ edges is at least $$m^3/64n^2$$.](edge-crossing)
 * [Given a $$k$$-dimensional subspace $$V$$ of $$\mathbb{R}^n$$, show that there exist indices $$i_1,\ldots,i_k$$ such that on defining $$W = \operatorname{span}(e_{i_1}, e_{i_2}, \ldots, e_{i_k})$$, the projection function $$\pi_W : V \to W$$ is a bijection.](subspace-proj)
+* [Let $$A_1,\ldots,A_n$$ be distinct subsets of $$[n]$$. Prove that there always exists $$i \in [n]$$ such that the sets $$(B_i)$$ defined by $$B_i = A_i \setminus \{i\}$$ are distinct.](distinct-sets)
